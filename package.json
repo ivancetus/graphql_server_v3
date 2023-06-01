@@ -9,7 +9,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "ts-node-dev src/index.ts",
-    "build": "npm i && npx prisma generate"
+    "build": "npm i && npx prisma generate",
+    "start": "ts-node-dev src/index.ts"
   },
   "keywords": [],
   "author": "",
